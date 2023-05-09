@@ -8,23 +8,32 @@ body
 .sign-up-form
 {
     width: 300px;
+    height: 700px;
+    border-style: solid;
+    border-width: 8px;
     box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
-    padding: 40px;
-    margin:8% auto 0;
+    padding: 20px;
+    margin:4% auto 0;
     text-align: center;
-    background:linear-gradient(#f9dce0,#f8c6cf,#f7b8c0);
-    border:2ex solid pink;
+    background:linear-gradient(to left,#f57e94,#f8babf,#fbdee1);
+    border:1ex solid #f8babf;
+    border-radius: 20px;
 }
 
+
 .sign-up-form h1{
+    padding-top: 50px;
+    padding-right: 175px;
+    padding-bottom: 5px;
     color:black;
     margin-bottom: 40px;
+    border-radius: 10px;
 }
 .input-box{
-    border-radius: 10px;
+    border-radius: 15px;
     padding:15px;
     margin:10px 0;
-    width: 90%;
+    width: 75%;
     border:none;
     outline:none;
     background:linear-gradient(135deg, rgb(255, 234, 247), rgb(250, 176, 189));
@@ -40,21 +49,32 @@ button{
     cursor: pointer;
 
 }
+.check-box{
+    padding-right: 115px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
 .signin-btn {
+    height:40px;
     background:linear-gradient(135deg, rgb(88, 13, 105), rgb(35, 8, 53));
     color: white;
+    border-radius: 15px;
+    padding:15px;
+    margin:10px 0;
+    width: 85%;
 }
 .line{
     position: relative;
     height:1px;
-    margin:36px 0;
+    margin:10px 0;
+    margin-bottom: 10%;
     width:100%;
     background-color: #8d4a64;
 }
 .line::before{
     content: "Or";
     position: absolute;
-    top:50%;
+    top:90%;
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: pink;
@@ -65,6 +85,8 @@ button{
 
 .google-btn{
     padding: 10px;
+    margin:10px;
+    padding-left: 20px;
     background:linear-gradient(135deg, rgb(255, 255, 255), rgb(242, 164, 177));
 }
 
@@ -72,11 +94,25 @@ button{
     background:linear-gradient(135deg, rgb(255, 255, 255), rgb(242, 164, 177));
 }
 
+a.facebook{
+    color: black;
+    background:linear-gradient(135deg, rgb(255, 255, 255), rgb(242, 164, 177));
+}
+
+.fa-brands fa-google{
+    position: absolute;
+    top: 50%;
+    left: 15px;
+    width:50%;
+    transform: translatey(-50%);
+}
+
 
 .or {
-    background:linear-gradient(135deg, rgb(255, 255, 255), pink);
+    background:#f8babf;
     width: 30px;
     margin: -19px auto 10px;
+    padding-top: 40px;
 }
 
 
